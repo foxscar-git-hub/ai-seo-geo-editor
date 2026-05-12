@@ -1,0 +1,17 @@
+{
+    "name": "AI SEO/GEO Редактор статей",
+    "slug": "ai-seo-geo-editor",
+    "version": "1.0.0",
+    "author": "@foxscar",
+    "homepage": "",
+    "download_url": "https://raw.githubusercontent.com/foxscar-git-hub/ai-seo-geo-editor/main/ai-seo-geo-editor.zip",
+    "requires": "5.6",
+    "requires_php": "7.4",
+    "tested": "6.9",
+    "last_updated": "2026-05-12",
+    "description": "AI SEO/GEO оптимизация статей для WordPress. Анализ, переписывание, автооптимизация новых публикаций.",
+    "changelog": "<h4>1.0.0 — 12 мая 2026</h4><ul><li>Первый стабильный релиз</li><li>Локальная лицензия (50 ключей)</li><li>Автооптимизация новых публикаций</li><li>Выбор модели AI из выпадающего списка</li><li>Резервная модель (DeepSeek V4 по умолчанию)</li><li>Режим SEO+GEO</li><li>Удалён response_format для совместимости со всеми моделями</li></ul>",
+    "update_notice": "Версия 1.0.0 — стабильный релиз с автообновлением, автооптимизацией и выбором моделей AI.",
+    "icons": {},
+    "banners": {}
+}
