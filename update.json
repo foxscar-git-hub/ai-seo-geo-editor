@@ -1,17 +1,17 @@
 {
     "name": "AI SEO/GEO Редактор статей",
     "slug": "ai-seo-geo-editor",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "author": "@foxscar",
     "homepage": "",
     "download_url": "https://raw.githubusercontent.com/foxscar-git-hub/ai-seo-geo-editor/main/ai-seo-geo-editor.zip",
     "requires": "5.6",
     "requires_php": "7.4",
     "tested": "6.9",
-    "last_updated": "2026-05-12",
+    "last_updated": "2026-05-14",
     "description": "AI SEO/GEO оптимизация статей для WordPress. Анализ, переписывание, автооптимизация новых публикаций.",
-    "changelog": "<h4>1.2.0 — 12 мая 2026</h4><ul><li>Исправлены ID моделей: deepseek/deepseek-v4 → deepseek/deepseek-v4-flash и deepseek/deepseek-v4-pro</li><li>Убраны несуществующие модели Gemini 3, добавлена Gemini 3.1 Flash Lite</li><li>Fallback модель по умолчанию: DeepSeek V4 Flash</li><li>Исправлена причина HTTP 400 при автообработке</li></ul><h4>1.1.4 — 12 мая 2026</h4><ul><li>Бейдж «авто» и зелёные точки</li></ul><h4>1.1.3 — 12 мая 2026</h4><ul><li>Кнопка проверки обновлений</li></ul>",
-    "update_notice": "Версия 1.2.0 — исправлены ID моделей DeepSeek V4 и Gemini. Автообработка должна работать корректно.",
+    "changelog": "<h4>1.2.1 — 14 мая 2026</h4><ul><li>Исправлено сохранение галочки «Автооптимизация» — снятие галочки теперь корректно сохраняется</li><li>Статьи больше не переписываются повторно при автооптимизации</li><li>Новая настройка «Режим сохранения»: перезапись оригинала или создание новой статьи с сохранением оригинала в черновик</li></ul><h4>1.2.0 — 12 мая 2026</h4><ul><li>Исправлены ID моделей: deepseek/deepseek-v4 → deepseek/deepseek-v4-flash и deepseek/deepseek-v4-pro</li><li>Убраны несуществующие модели Gemini 3, добавлена Gemini 3.1 Flash Lite</li><li>Fallback модель по умолчанию: DeepSeek V4 Flash</li><li>Исправлена причина HTTP 400 при автообработке</li></ul><h4>1.1.4 — 12 мая 2026</h4><ul><li>Бейдж «авто» и зелёные точки</li></ul><h4>1.1.3 — 12 мая 2026</h4><ul><li>Кнопка проверки обновлений</li></ul>",
+    "update_notice": "Версия 1.2.1 — исправлено сохранение настроек автооптимизации, защита от повторного переписывания, выбор режима сохранения.",
     "icons": {},
     "banners": {}
 }
